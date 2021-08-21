@@ -16,6 +16,9 @@ function addTodo(event){
     event.preventDefault();
 
     //Creating the ToDo div
+    if(todoInput.value.trim() === "") {
+        return;
+    }
     const todoDiv= document.createElement('div');
     todoDiv.classList.add('todo');
 
@@ -124,7 +127,7 @@ function getTodos(){
     }
 
     todos.forEach(function(todo){
-        //Creating the ToDo div
+    //Creating the ToDo div
     const todoDiv= document.createElement('div');
     todoDiv.classList.add('todo');
 
@@ -148,8 +151,8 @@ function getTodos(){
 
     //Append to List
     todoList.appendChild(todoDiv);
-    })
-}
+    });
+};
 
 function removeLocalTodos(todo){
     //Check: Is a TODO already there?
