@@ -1,0 +1,19 @@
+{
+  "name": "todos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ankan002/ToDOS.git"
+  },
+  "author": "Ankan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ankan002/ToDOS/issues"
+  },
+  "homepage": "https://github.com/Ankan002/ToDOS#readme"
+}
